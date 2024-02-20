@@ -5,11 +5,13 @@
             <head>
                 <meta charset="utf-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+                <script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
                 <title>Владимир Жильцов</title>
             </head>
             <body>
                 <p>Формула</p>
-                <math>
+                <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
                     <xsl:apply-templates />
                 </math>
             </body>
