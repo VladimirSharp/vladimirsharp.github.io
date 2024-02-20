@@ -8,6 +8,7 @@
             <title>¬ладимир ∆ильцов</title>
         </head>
         <body>
+            <p>Ёллипсы</p>
             <svg width="{@ширина}" height="{@высота}" xmlns="http://www.w3.org/2000/svg">
                 <xsl:apply-templates select="эллипс"/>
             </svg>
