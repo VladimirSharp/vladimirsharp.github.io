@@ -2,7 +2,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:template match="/">
     <svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
-      <xsl:apply-templates select="root/графика"/>
+      <xsl:apply-templates select="root/графика/эллипс"/>
     </svg>
   </xsl:template>
   
