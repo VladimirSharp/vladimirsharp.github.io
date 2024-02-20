@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-  <xsl:template match="графика">
+  <xsl:template match="РіСЂР°С„РёРєР°">
     <html lang="en">
         <head>
             <meta charset="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <title>Владимир Жильцов</title>
+            <title>Р’Р»Р°РґРёРјРёСЂ Р–РёР»СЊС†РѕРІ</title>
         </head>
         <body>
-            <p>Эллипсы</p>
-            <svg width="{@ширина}" height="{@высота}" xmlns="http://www.w3.org/2000/svg">
-                <xsl:apply-templates select="эллипс"/>
+            <p>Р­Р»Р»РёРїСЃС‹</p>
+            <svg width="{@С€РёСЂРёРЅР°}" height="{@РІС‹СЃРѕС‚Р°}" xmlns="http://www.w3.org/2000/svg">
+                <xsl:apply-templates select="СЌР»Р»РёРїСЃ"/>
             </svg>
         </body>
     </html>
 
   </xsl:template>
-  <xsl:template match="эллипс">
-    <ellipse id="{@id}" fill="{@заливка}" stroke="{@ободок}" stroke-width="{@ширина-ободка}" 
+  <xsl:template match="СЌР»Р»РёРїСЃ">
+    <ellipse id="{@id}" fill="{@Р·Р°Р»РёРІРєР°}" stroke="{@РѕР±РѕРґРѕРє}" stroke-width="{@С€РёСЂРёРЅР°-РѕР±РѕРґРєР°}" 
              cx="{@cx}" cy="{@cy}" rx="{@rx}" ry="{@ry}"/>
   </xsl:template>
 </xsl:stylesheet>
